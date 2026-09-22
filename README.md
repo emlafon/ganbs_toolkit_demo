@@ -1,5 +1,7 @@
 # ganbs.toolkit.demo
 
+[![R-CMD-check](https://github.com/emlafon/ganbs_toolkit_demo/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/emlafon/ganbs_toolkit_demo/actions/workflows/R-CMD-check.yaml)
+
 A portfolio demonstration of R functions built for newborn screening (NBS)
 epidemiology reporting workflows, adapted from tools used in a real state
 public health surveillance program.
@@ -43,7 +45,7 @@ map_portal_condition(condition = "MCADD", source = "General Abnormal")
 
 ```r
 # install.packages("devtools")
-devtools::install_github("yourusername/ganbs_toolkit_demo")
+devtools::install_github("emlafon/ganbs_toolkit_demo")
 ```
 
 ## Background
