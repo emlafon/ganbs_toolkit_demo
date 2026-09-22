@@ -1,0 +1,24 @@
+Package: ganbs.toolkit.demo
+Title: Demo Toolkit for Newborn Screening Epidemiology Workflows
+Version: 0.0.0.9000
+Authors@R:
+    person("Erin", "LaFon", email = "you@example.com", role = c("aut", "cre"))
+Description: A portfolio demonstration package showing reusable R functions
+    for newborn screening (NBS) epidemiology reporting, including specimen
+    trend analysis and county-level choropleth mapping. Built with fully
+    synthetic example data - no real surveillance data is included.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    dplyr,
+    ggplot2,
+    openxlsx,
+    tigris,
+    sf,
+    stringr
+Suggests:
+    testthat (>= 3.0.0),
+    usethis
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0

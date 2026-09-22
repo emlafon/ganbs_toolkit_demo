@@ -1,0 +1,9 @@
+# RStudio project-local settings - specific to your machine, not shared
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Compiled package build artifacts
+*.Rcheck/
+*.tar.gz
